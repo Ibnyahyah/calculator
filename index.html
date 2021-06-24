@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <h2 style="color: crimson; text-align: center; font-size: 30px; margin-top: 20px;">
+        Simple calculator
+      </h2>
+      <div class="calculator">
+        <h1 class="input">0</h1>
+        <table border>
+          <tr>
+            <td onclick="yo()" class="clear">C</td>
+            <td onclick="division()">/</td>
+            <td onclick="multiply()">X</td>
+            <td onclick="del()">del</td>
+          </tr>
+          <tr>
+            <td onclick="seven()">7</td>
+            <td onclick="eight()">8</td>
+            <td onclick="nine()">9</td>
+            <td onclick="substract()">-</td>
+          </tr>
+          <tr>
+            <td onclick="four()">4</td>
+            <td onclick="five()">5</td>
+            <td onclick="six()">6</td>
+            <td onclick="add()">+</td>
+          </tr>
+          <tr>
+            <td class="one" onclick="one()">1</td>
+            <td onclick="two()">2</td>
+            <td onclick="three()">3</td>
+            <td onclick="doubleZero()">00</td>
+          </tr>
+          <tr>
+            <td onclick="dot()">.</td>
+            <td onclick="zero()">0</td>
+            <td onclick="percentage()">%</td>
+            <td
+              onclick="equal()"
+              style="background-color: rgb(253, 244, 244); color: royalblue"
+            >
+              =
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="follow">
+        <p style="font-size: 20px; text-align: center; font-weight: 400">
+          Follow me up On:
+        </p>
+      </div>
+      <div class="icon" style="text-align: center">
+        <a style="color: magenta" href="https://www.twitter.com/ibn_yahyah?s=09"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          style="color: magenta"
+          href="https://www.linkedin.com/in/ridwanullahi-yahyah-895633207"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
